@@ -1,0 +1,6 @@
+# kelvinorduna.com/robots.txt
+User-agent: *
+Allow: /legal
+Disallow: /images
+
+Sitemap: https://kelvinorduna.com/sitemap.xml
