@@ -1,7 +1,6 @@
 # kelvinorduna.com/robots.txt
 User-agent: *
 Allow: /legal
-Disallow: /assets/img
-Disallow: /assets/uploads
+Disallow: /images
 
 Sitemap: https://kelvinorduna.com/sitemap.xml

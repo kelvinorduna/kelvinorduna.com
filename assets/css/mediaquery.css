@@ -1,0 +1,12 @@
+#fblaimg {
+  width: 770px;
+  margin: 0px;
+}
+
+@media (max-width: 576px) {
+  #fblaimg {
+    width: 320px;
+    margin: 0px;
+  }
+}
+
