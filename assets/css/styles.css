@@ -309,3 +309,8 @@ a:hover {
   font-family: 'SF Pro Text';
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(34,34,34,.7);
+  border-color: rgba(34,34,34,.1);
+}
+
