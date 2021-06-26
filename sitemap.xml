@@ -24,6 +24,12 @@
 	<changefreq>yearly</changefreq>
     </url>
     <url>
+        <loc>https://kelvinorduna.com/projects.html</loc>
+	<priority>0.8</priority>
+	<lastmod>2021-04-23</lastmod>
+	<changefreq>monthly</changefreq>
+    </url>
+    <url>
         <loc>https://kelvinorduna.com/contact.html</loc>
 	<priority>0.8</priority>
 	<lastmod>2021-04-23</lastmod>
@@ -35,10 +41,5 @@
 	<lastmod>2021-04-23</lastmod>
 	<changefreq>weekly</changefreq>
     </url>
-    <url>
-        <loc>https://kelvinorduna.com/projects.html</loc>
-	<priority>0.8</priority>
-	<lastmod>2021-04-23</lastmod>
-	<changefreq>monthly</changefreq>
-    </url>
+
 </urlset>
