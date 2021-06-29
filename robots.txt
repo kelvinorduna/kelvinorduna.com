@@ -6,5 +6,6 @@ Disallow: /404
 Disallow: /portfolio/404
 Disallow: /temporary
 Disallow: /maintenance
+Disallow: /projects
 
 Sitemap: https://kelvinorduna.com/sitemap.xml
