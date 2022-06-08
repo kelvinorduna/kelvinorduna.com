@@ -1,31 +1,35 @@
 @font-face {
 	font-family: 'Arial';
-	src: url(/assets/fonts/ArialMT.woff2) format('woff2'),
-	url(/assets/fonts/ArialMT.woff) format('woff');
+	src: url(../../assets/fonts/ArialMT.woff2) format('woff2'),
+	url(../../assets/fonts/ArialMT.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
+	font-display: auto;
 }
 
 @font-face {
 	font-family: 'Arial';
-	src: url(/assets/fonts/Arial-ItalicMT.woff2) format('woff2'),
-	url(/assets/fonts/Arial-ItalicMT.woff) format('woff');
+	src: url(../../assets/fonts/Arial-ItalicMT.woff2) format('woff2'),
+	url(../../assets/fonts/Arial-ItalicMT.woff) format('woff');
 	font-weight: normal;
 	font-style: italic;
+	font-display: auto;
 }
 
 @font-face {
 	font-family: 'Arial';
-	src: url(/assets/fonts/Arial-BoldMT.woff2) format('woff2'),
-	url(/assets/fonts/Arial-BoldMT.woff) format('woff');
+	src: url(../../assets/fonts/Arial-BoldMT.woff2) format('woff2'),
+	url(../../assets/fonts/Arial-BoldMT.woff) format('woff');
 	font-weight: bold;
 	font-style: normal;
+	font-display: auto;
 }
 
 @font-face {
 	font-family: 'Arial';
-	src: url(/assets/fonts/Arial-BoldItalicMT.woff2) format('woff2'),
-	url(/assets/fonts/Arial-BoldItalicMT.woff) format('woff');
+	src: url(../../assets/fonts/Arial-BoldItalicMT.woff2) format('woff2'),
+	url(../../assets/fonts/Arial-BoldItalicMT.woff) format('woff');
 	font-weight: bold;
 	font-style: italic;
+	font-display: auto;
 }

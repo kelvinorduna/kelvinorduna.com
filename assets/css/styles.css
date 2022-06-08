@@ -314,3 +314,55 @@ a:hover {
   border-color: rgba(34,34,34,.1);
 }
 
+#urlText {
+  font-family: 'SF Pro Text';
+  font-size: 53px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #urlText {
+    font-family: 'SF Pro Text';
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 510px) {
+  #urlText {
+    font-family: 'SF Pro Text';
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  #urlText {
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+#subHead {
+  text-align: center;
+  font-family: 'SF Pro Text';
+  font-size: 18px;
+}
+
+@media (max-width: 450px) {
+  #subHead {
+    text-align: center;
+    font-family: 'SF Pro Text';
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 396px) {
+  #subHead {
+    text-align: center;
+    font-family: 'SF Pro Text';
+    font-size: 12px;
+  }
+}
+

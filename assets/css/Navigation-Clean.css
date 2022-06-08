@@ -22,7 +22,7 @@
 }
 
 .navigation-clean .navbar-brand:hover {
-  color: #BFC0C0;
+  color: #222;
 }
 
 .navigation-clean .navbar-toggler {
@@ -58,7 +58,7 @@
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
-  color: #BFC0C0 !important;
+  color: #37434d !important;
   background-color: transparent;
 }
 
