@@ -1,12 +1,8 @@
-if (window.innerWidth < 768) {
-	$('[data-bss-disabled-mobile]').removeClass('animated').removeAttr('data-aos data-bss-hover-animate');
-}
+document.addEventListener('DOMContentLoaded', function() {
 
-$(document).ready(function(){
-	AOS.init();
+	var charts = document.querySelectorAll('[data-bss-chart]');
 
-	$('[data-bss-hover-animate]')
-		.mouseenter( function(){ var elem = $(this); elem.addClass('animated ' + elem.attr('data-bss-hover-animate')) })
-		.mouseleave( function(){ var elem = $(this); elem.removeClass('animated ' + elem.attr('data-bss-hover-animate')) });
-	$('[data-bss-tooltip]').tooltip();
-});
+	for (var chart of charts) {
+		chart.chart = new Chart(chart, JSON.parse(chart.dataset.bssChart));
+	}
+}, false);
